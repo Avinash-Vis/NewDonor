@@ -1,0 +1,72 @@
+.new_donor{
+    max-width: 1000px;
+    margin: 50px auto;
+    position: relative;
+    box-shadow: 0 10px 30px 0 rgba(0, 0, 0, 0.1);
+    padding: 30px;
+}
+
+.new_donor .title{
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 3em;
+    /* letter-spacing: 3px; */
+    line-height: 48px;
+    padding-bottom: 30px;
+    color: #5543ca;
+}
+
+.contact-form .form-field{
+    position: relative;
+    margin: 32px 0;
+}
+
+.contact-form .input-text{
+    display: block;
+    width: 100%;
+    height: 36px;
+    border-width: 0 0 2px 0;
+    border-color: #5543ca;
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: 400;
+
+}
+
+.contact-form .input-text:focus + .label,
+.contact-form .input-text.not-empty + .label{
+    transform: translateY(-10px);
+}
+
+.contact-form .input-text:focus{
+    outline: none;
+}
+
+.contact-form .label{
+    position: absolute;
+    left: 20px;
+    bottom: 28px;
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: 400;
+    color: #5543ca;
+    cursor: text;
+    transition: transform  0.2s ease-in-out;
+}
+
+.contact-form .submit-btn{
+    display: inline-block;
+    color:green;
+    letter-spacing: 2px;
+    font-size: 16px;
+    padding: 8px 16px;
+    border: none;
+    width: 200px;    
+    cursor: pointer;
+}
+
+
+
+
+
+
